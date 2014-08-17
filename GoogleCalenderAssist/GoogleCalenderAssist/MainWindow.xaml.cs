@@ -30,12 +30,16 @@ namespace GoogleCalenderAssist
         /// </summary>
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            EXCEL EX = new EXCEL();
-            EX.Make();
-            EX.EditSheet(2014);
-            EX.Save("2014");
-            EX.Close();
+            int year = DateTime.Now.Year;
 
+            for (int i = year; i < year + 10; i++)
+            {
+                EXCEL EX = new EXCEL();
+                EX.Make();
+                EX.EditSheet(i);
+                EX.Save(i.ToString());
+                EX.Close();
+            }
         }
 
         /// <summary>
