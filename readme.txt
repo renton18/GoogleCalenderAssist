@@ -14,7 +14,9 @@
 　GoogleCalenderAssist.exe	本体
 	
 ・使い方
-　 ①「保存ボタン」
+　①「作成」ボタンでエクセルファイルを作成する。
+　②https://www.google.com/settings/security/lesssecureapps にアクセスして「有効」にチェックを入れる。
+　③
 
 ・履歴
 　2013/10/05 ver1.00 作成

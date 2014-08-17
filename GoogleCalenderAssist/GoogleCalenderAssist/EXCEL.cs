@@ -38,7 +38,7 @@ namespace GoogleCalenderAssist
 
             //エクセルファイルをオープンする
             wb = (Workbook)(ExcelApp.Workbooks.Open(
-              fname,  // オープンするExcelファイル名
+              System.Environment.CurrentDirectory + "/" + fname,  // オープンするExcelファイル名
               Type.Missing, // （省略可能）UpdateLinks (0 / 1 / 2 / 3)
               Type.Missing, // （省略可能）ReadOnly (True / False )
               Type.Missing, // （省略可能）Format
@@ -176,6 +176,25 @@ namespace GoogleCalenderAssist
                 //Sheet解放
                 System.Runtime.InteropServices.Marshal.ReleaseComObject(sheet);                
             }
+        }
+
+        /// <summary>
+        /// データ入力
+        /// </summary>
+        public void Write(int month, int day, string time, string place, string content)
+        {
+            //月シートアクティブ
+            Worksheet sheet = (Worksheet)wb.Sheets[month];
+
+            //時間よりセルの特定
+            string[] timerow = time.Split(':');
+            //行特定
+            int row;
+            row = 1 + (day -1) * 24 + int.Parse(timerow[0]);
+
+            //列特定
+            sheet.Cells[row, 2] = time;
+            sheet.Cells[row, 3] = content;
         }
     }
 }
