@@ -1,0 +1,14 @@
+C:\Users\ST\Desktop\プロジェクト\GoogleCalenderAssist\GoogleCalenderAssist\GoogleCalenderAssist\bin\Debug\GoogleCalenderAssist.exe.config
+C:\Users\ST\Desktop\プロジェクト\GoogleCalenderAssist\GoogleCalenderAssist\GoogleCalenderAssist\bin\Debug\GoogleCalenderAssist.exe
+C:\Users\ST\Desktop\プロジェクト\GoogleCalenderAssist\GoogleCalenderAssist\GoogleCalenderAssist\bin\Debug\GoogleCalenderAssist.pdb
+C:\Users\ST\Desktop\プロジェクト\GoogleCalenderAssist\GoogleCalenderAssist\GoogleCalenderAssist\obj\Debug\GoogleCalenderAssist.csprojResolveAssemblyReference.cache
+C:\Users\ST\Desktop\プロジェクト\GoogleCalenderAssist\GoogleCalenderAssist\GoogleCalenderAssist\obj\Debug\MainWindow.baml
+C:\Users\ST\Desktop\プロジェクト\GoogleCalenderAssist\GoogleCalenderAssist\GoogleCalenderAssist\obj\Debug\MainWindow.g.cs
+C:\Users\ST\Desktop\プロジェクト\GoogleCalenderAssist\GoogleCalenderAssist\GoogleCalenderAssist\obj\Debug\App.g.cs
+C:\Users\ST\Desktop\プロジェクト\GoogleCalenderAssist\GoogleCalenderAssist\GoogleCalenderAssist\obj\Debug\GoogleCalenderAssist_MarkupCompile.cache
+C:\Users\ST\Desktop\プロジェクト\GoogleCalenderAssist\GoogleCalenderAssist\GoogleCalenderAssist\obj\Debug\GoogleCalenderAssist.g.resources
+C:\Users\ST\Desktop\プロジェクト\GoogleCalenderAssist\GoogleCalenderAssist\GoogleCalenderAssist\obj\Debug\GoogleCalenderAssist.Properties.Resources.resources
+C:\Users\ST\Desktop\プロジェクト\GoogleCalenderAssist\GoogleCalenderAssist\GoogleCalenderAssist\obj\Debug\GoogleCalenderAssist.csproj.GenerateResource.Cache
+C:\Users\ST\Desktop\プロジェクト\GoogleCalenderAssist\GoogleCalenderAssist\GoogleCalenderAssist\obj\Debug\GoogleCalenderAssist.exe
+C:\Users\ST\Desktop\プロジェクト\GoogleCalenderAssist\GoogleCalenderAssist\GoogleCalenderAssist\obj\Debug\GoogleCalenderAssist.pdb
+C:\Users\ST\Desktop\プロジェクト\GoogleCalenderAssist\GoogleCalenderAssist\GoogleCalenderAssist\obj\Debug\GoogleCalenderAssist.csproj.ResolveComReference.cache
