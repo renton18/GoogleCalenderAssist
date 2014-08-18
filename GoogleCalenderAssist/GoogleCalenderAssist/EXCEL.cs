@@ -181,7 +181,7 @@ namespace GoogleCalenderAssist
         /// <summary>
         /// データ入力
         /// </summary>
-        public void Write(int month, int day, string time, string place, string content)
+        public void Write(int month, int day, string time, string place, string content, int calID)
         {
             //月シートアクティブ
             Worksheet sheet = (Worksheet)wb.Sheets[month];
@@ -193,8 +193,17 @@ namespace GoogleCalenderAssist
             row = 1 + (day -1) * 24 + int.Parse(timerow[0]);
 
             //列特定
-            sheet.Cells[row, 2] = time;
-            sheet.Cells[row, 3] = content;
+            if (calID == 1)
+            {
+                sheet.Cells[row, 2] = time;
+                sheet.Cells[row, 3] = content;
+                sheet.Cells[row, 4] = place;
+            }else
+            {
+                sheet.Cells[row, 5] = time;
+                sheet.Cells[row, 6] = content;
+                sheet.Cells[row, 7] = place;
+            }
         }
     }
 }
